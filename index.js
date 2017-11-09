@@ -30,7 +30,6 @@ function findAdjacent(nodeName, vertices, edges) {
   return matches
 }
 
-
 function markDiscovered(nodes) {
   nodes.map(node => node.discovered = true)
 }
